@@ -11,4 +11,5 @@ services:
       - "./notebooks/:/home/jovyan/work/"
       - "./.local/:/home/jovyan/.local/"
       - "./.jupyter/:/home/jovyan/.jupyter/"
+      - "./.ipython/:/home/jovyan/.python/"
     command: start-notebook.sh --NotebookApp.token=''
