@@ -2,7 +2,7 @@
   "Editor": {
     "codemirror_options": {
       "indentUnit": 2,
-      "vimMode": false, 
+      "vimMode": true, 
       "keyMap": "default"
     }
   }
