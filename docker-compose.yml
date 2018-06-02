@@ -9,6 +9,7 @@ services:
       - "8888:8888"
     volumes:
       - "./notebooks/:/home/jovyan/work/"
+      - "./notebooks/kaggle/corpora/stopwords/:/home/jovyan/nltk_data/corpora/stopwords"
       - "./.local/:/home/jovyan/.local/"
       - "./.jupyter/:/home/jovyan/.jupyter/"
       - "./.ipython/:/home/jovyan/.python/"
